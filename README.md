@@ -1,5 +1,6 @@
-# Project Name
-> Outline a brief description of your project.
+# Landing Club Case Study
+> Lending Club is a consumer finance company which specialises in lending various types of loans to urban customers.
+  the company wants to understand the driving factors (or driver variables) behind loan default, i.e. the variables which are strong indicators of default.  The company can utilise this knowledge for its portfolio and risk assessment. 
 
 
 ## Table of Contents
@@ -11,38 +12,45 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- This company is the largest online loan marketplace, facilitating personal loans, business loans, and financing of 	
+  medical procedures. Borrowers can easily access lower interest rate loans through a fast online interface. 
+  When the company receives a loan application, the company has to make a decision for loan approval based on the applicant’s profile.
+- As part of this project we would like to Data analysis and understand the identlfy the problems faced by business
+- The company wants to understand the driving factors (or driver variables) behind loan default, i.e. the variables 
+  which are strong indicators of default.  The company can utilise this knowledge for its portfolio and risk assessment
+- The dataset has loan data for all loans issued through the time period 2007 t0 2011
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Hight the rate of interest and Longer Team Increase are likely to be charged off.
+- Loan Issued in month of December/November/October are more likely to get charged Off.
+- Organisation should avoid giving loans to unverified borrowers
+- Applicants with E/F/G Grade if given loan with higer rate of interest are likely tobe charged off
+- Hight Interest Rate and Longer Team Increase the Probability of charged off.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python 3.0
+- pandas
+- seaborn
+- numpy
+- datetime
+- matplotlib.pyplot
+- warnings
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
+- Upgrad Case Study Assignment
 - This project was based on [this tutorial](https://www.example.com).
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@manishemnani] - feel free to contact me!
 
 
 <!-- Optional -->
